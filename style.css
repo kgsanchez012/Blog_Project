@@ -1,0 +1,26 @@
+html {font-size: 10px;}
+body {
+    font: 1.5rem Verdana, Arial, sans-serif;
+    color: #333;
+}
+h1 { font-size: 4rem; margin-bottom: .5em;}
+h2 { font-size: 3rem; margin: 1em 0 .25em;}
+h3 { font-size: 2.5rem; margin-bottom: .25em;}
+p { margin: 0 0 1em;}
+
+
+header {
+    background-color: #b8b8b8;
+}
+
+article.main {
+    background-color: #e6e6e6;
+}
+
+aside {
+    background-color: #84ccf0;
+}
+
+footer {
+    background-color: #b8b8b8;
+}
