@@ -2,6 +2,9 @@ html {font-size: 10px;}
 body {
     font: 1.5rem Verdana, Arial, sans-serif;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 h1 { font-size: 4rem; margin-bottom: .5em;}
 h2 { font-size: 3rem; margin: 1em 0 .25em;}
@@ -13,13 +16,24 @@ header {
     background-color: #b8b8b8;
 }
 
+main {
+    display: flex;
+    flex: 1 1 0%;
+    width: 80%;
+    margin: 0 auto;
+}
+
 article.main {
     background-color: #e6e6e6;
+    flex: 1;
 }
 
 aside {
     background-color: #84ccf0;
+    flex: 0 0 25%;
 }
+
+.sidebar1 { order: -1;}
 
 footer {
     background-color: #b8b8b8;
