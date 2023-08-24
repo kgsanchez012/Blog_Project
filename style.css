@@ -24,12 +24,12 @@ main {
 }
 
 article.main {
-    background-color: #e6e6e6;
+    background-color: #91c8d6;
     flex: 1;
 }
 
 aside {
-    background-color: #84ccf0;
+    background-color: #d193c2;
     flex: 0 0 25%;
 }
 
